@@ -16,7 +16,7 @@ $(document).ready(function(){
 			n = 'O';
 		}
 		checkIfWon(n);
-		// console.log(turn);	
+		
 		turn++;
 		that.off('click');
 	});
